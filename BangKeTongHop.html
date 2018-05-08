@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description">
+    <meta name="author">
+    <meta name="keywords" content="MediaCenter, Template, eCommerce">
+    <meta name="robots" content="all">
+    <title>
+	
+        Bảng kê tổng hợp bán hàng
+
+    </title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.6 -->
+    <link id="theme" rel="stylesheet" type="text/css" href="B%E1%BA%A3ng%20k%C3%AA%20t%E1%BB%95ng%20h%E1%BB%A3p%20b%C3%A1n%20h%C3%A0ng_files/theme-default.css">
+    <link rel="stylesheet" type="text/css" href="B%E1%BA%A3ng%20k%C3%AA%20t%E1%BB%95ng%20h%E1%BB%A3p%20b%C3%A1n%20h%C3%A0ng_files/styles.css">
+    <link href="B%E1%BA%A3ng%20k%C3%AA%20t%E1%BB%95ng%20h%E1%BB%A3p%20b%C3%A1n%20h%C3%A0ng_files/alertify.css" rel="stylesheet">
+    <link rel="stylesheet" href="B%E1%BA%A3ng%20k%C3%AA%20t%E1%BB%95ng%20h%E1%BB%A3p%20b%C3%A1n%20h%C3%A0ng_files/sweetalert.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://0105987432999.softdreams.vn/Content/favicon.png">
+    <script type="text/javascript" src="B%E1%BA%A3ng%20k%C3%AA%20t%E1%BB%95ng%20h%E1%BB%A3p%20b%C3%A1n%20h%C3%A0ng_files/jquery_002.js"></script>
+    <script type="text/javascript" src="B%E1%BA%A3ng%20k%C3%AA%20t%E1%BB%95ng%20h%E1%BB%A3p%20b%C3%A1n%20h%C3%A0ng_files/jquery-ui.js"></script>
+    <script src="B%E1%BA%A3ng%20k%C3%AA%20t%E1%BB%95ng%20h%E1%BB%A3p%20b%C3%A1n%20h%C3%A0ng_files/jquery_003.js"></script>
+    <script src="B%E1%BA%A3ng%20k%C3%AA%20t%E1%BB%95ng%20h%E1%BB%A3p%20b%C3%A1n%20h%C3%A0ng_files/jquery.js"></script>
+</head>
+<body>
+    <div class="page-container page-navigation-toggled page-container-wide">
+        <!-- PAGE CONTENT -->
+        <div class="page-content">
+            <!-- PAGE CONTENT WRAPPER -->
+            <div class="page-content-wrap col-lg-12">
+                <link href="B%E1%BA%A3ng%20k%C3%AA%20t%E1%BB%95ng%20h%E1%BB%A3p%20b%C3%A1n%20h%C3%A0ng_files/reportInv.css" rel="stylesheet" type="text/css">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <input id="Month" name="Month" value="01" type="hidden">
+                            <input id="Year" name="Year" value="2018" type="hidden">
+                        <div id="print" class="panel-body">
+                            <!--?xml version="1.0" encoding="utf-16"?-->
+                            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                            <title>VAT</title>
+                            <style type="text/css">
+                                body {line-height: 1.42857143;}  body table { border: thin solid #000; border-collapse: collapse;width: 100%;} table tr, table td, table th {border: thin solid #000; border-collapse: collapse;}
+                            </style>
+                            <div class="row" style="margin 0px auto;font-family:Arial;font-size:13px">
+                                <div style="text-align:center;font-weight:700; font-size:x-large">
+                                    BÁO CÁO TỔNG HỢP BÁN HÀNG
+                                </div>
+                                <div class="panel-body table-responsive">
+                                    <p>
+                                        <b>[01] Kỳ báo cáo: 01/2018</b>
+                                    </p>
+                                    <p>
+                                        <b>[02] Tên đơn vị: Công ty Cổ phần đầu tư công nghệ và thương mại SDS -999</b>
+                                    </p>
+                                    <p>
+                                        <b>[03] Mã số thuế: 0105987432-999</b>
+                                    </p>
+                                    <table class="table table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Ngày hóa đơn</th>
+                                                <th>Ký hiệu mẫu hóa đơn</th>
+                                                <th>Ký hiệu</th>
+                                                <th>Số hóa đơn</th>
+                                                <th>Tổng tiền hàng/dịch vụ</th>
+                                                <th>Tiền thuế</th>
+                                                <th>Tổng tiền</th>
+                                                <th style="width:40px">Ghi chú</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align:center; width: 120px">
+                                                    <i>[1]</i>
+                                                </td>
+                                                <td style="text-align:center; width: 70px">
+                                                    <i>[2]</i>
+                                                </td>
+                                                <td style="text-align:center; width: 100px">
+                                                    <i>[3]</i>
+                                                </td>
+                                                <td style="text-align:center; width: 100px">
+                                                    <i>[4]</i>
+                                                </td>
+                                                <td style="text-align:center; width: 100px">
+                                                    <i>[5]</i>
+                                                </td>
+                                                <td style="text-align:center; width: 100px">
+                                                    <i>[6]</i>
+                                                </td>
+                                                <td style="text-align:center; width: 100px">
+                                                    <i>[7]</i>
+                                                </td>
+                                                <td style="text-align:center; width: 100px">
+                                                    <i>[8]</i>
+                                                </td>
+                                            </tr>
+                                            <tr style="background:#D0D3D4">
+                                                <td colspan="12" style="text-align:left;" class="text">
+                                                    Mã số thuế :  0105987432
+                                                    Khách hàng :  Đồng Hồng
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align:center;" class="text">15/01/2018</td>
+                                                <td style="text-align:center;" class="text">01GTKT0/017</td>
+                                                <td style="text-align:center;" class="text">PV/18E</td>
+                                                <td style="text-align:center;" class="text">0000001</td>
+                                                <td style="text-align:right;" class="text">200,150,000</td>
+                                                <td style="text-align:right;" class="text">0</td>
+                                                <td style="text-align:right;">200,150,000</td>
+                                                <td style="text-align:center;">Đã phát hành</td>
+                                            </tr>
+                                            <tr style="background:#D0D3D4">
+                                                <td colspan="12" style="text-align:left;" class="text">
+                                                    Mã số thuế :  
+                                                    Khách hàng :  Khách lẻ
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align:center;" class="text">13/01/2018</td>
+                                                <td style="text-align:center;" class="text">01GTKT0/024</td>
+                                                <td style="text-align:center;" class="text">LP/18E</td>
+                                                <td style="text-align:center;" class="text">0000001</td>
+                                                <td style="text-align:right;" class="text">1,712,662,049</td>
+                                                <td style="text-align:right;" class="text">0</td>
+                                                <td style="text-align:right;">1,712,662,049</td>
+                                                <td style="text-align:center;">Đã phát hành</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align:center;"></td>
+                                                <td style="text-align:center;"></td>
+                                                <td style="text-align:center;"></td>
+                                                <td style="text-align:center;"></td>
+                                                <td style="text-align:right;">1,058,086,902.9</td>
+                                                <td style="text-align:right;">220,506,980</td>
+                                                <td style="text-align:right;">1,151,228,870.9</td>
+                                                <td style="text-align:center"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- END PAGE CONTENT WRAPPER -->
+        </div>
+        <!-- END PAGE CONTENT -->
+    </div>
+</body>
+</html>
